@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background: #0d1017;
+  transition: 0.3s ease-in-out;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+p {
+  font-size: 11px;
+}
+.content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 150px;
+  padding: 20px;
+  border: 2px solid #32363e;
+  border-radius: 7px;
+  background: #181b23;
+}
+input {
+  border: 2px solid #32363e;
+  font-size: 12px;
+  outline: none;
+  border-radius: 7px;
+  padding: 7px 15px;
+  width: 100%;
+  background: #181b23;
+  pointer-events: none;
+}
+button {
+  border: none;
+  outline: none;
+  border: 2px solid #39699d;
+  padding: 9px 15px;
+  border-radius: 7px;
+  color: #fff;
+  cursor: pointer;
+  background: #65a0f3;
+  transition: 0.1s ease-in-out;
+  color: #000;
+}
+button:active {
+  background: #39699d;
+}
+.second {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.second i {
+  font-size: 11px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.fa-brush {
+  transition: 0.3s ease-in-out;
+}
+.fa-check {
+  color: rgb(0, 212, 81);
+}
+.green {
+  color: rgb(0, 212, 81);
+}
